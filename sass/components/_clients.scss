@@ -1,0 +1,45 @@
+.clients {
+  padding: 94px 0px;
+}
+
+.clients--title {
+  margin: 0px;
+  margin-bottom: 50px;
+
+  color: getColor(title);
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.clients--block-clients {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clients--link {
+  display: flex;
+  padding: 0px;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  background-color: transparent;
+  color: #afb1b8;
+  transition: $animation;
+
+  &:hover,
+  &:focus {
+    border: 1px solid #2196f3;
+    color: #2196f3;
+  }
+}
+
+.clients--icon {
+  fill: currentColor;
+  margin: auto;
+}

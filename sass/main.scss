@@ -1,0 +1,19 @@
+@import './utils/variables';
+@import './utils/modern-normalize';
+
+@import './basic/fonts';
+@import './basic/container';
+
+//html
+@import './components/header';
+@import './components/hero';
+@import './components/modal-form';
+@import './components/advantages';
+@import './components/employment';
+@import './components/about';
+@import './components/clients';
+@import './components/footer';
+
+//portfolio
+@import './components/portfolio';
+@import './components/galery';

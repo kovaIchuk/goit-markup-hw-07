@@ -1,0 +1,42 @@
+.portfolio {
+  padding: 94px 0px;
+}
+
+.portfolio--title {
+  display: none;
+}
+
+.portfolio--buttons {
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: 0;
+}
+
+.portfolio--button {
+  margin-right: 8px;
+  padding: 6px 22px;
+
+  color: getColor(title);
+
+  border: 0px solid transparent;
+  border-radius: 4px;
+  background-color: #f5f4fa;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  transition: $animation;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  &:hover,
+  &:focus {
+    color: getColor(white-color);
+    background-color: getColor(accent);
+  }
+}
